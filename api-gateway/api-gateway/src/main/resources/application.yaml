@@ -32,11 +32,11 @@ spring:
         webflux:
           routes:
             - id: auth-service
-              uri: https://YOUR-AUTH-SERVICE.onrender.com
+              uri: https://auth-service-6dyo.onrender.com
               predicates:
                 - Path=/auth/**
 
             - id: task-service
-              uri: https://YOUR-TASKS-SERVICE.onrender.com
+              uri: https://task-service-fy47.onrender.com
               predicates:
                 - Path=/tasks/**
